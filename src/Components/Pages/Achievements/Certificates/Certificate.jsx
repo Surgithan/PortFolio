@@ -20,15 +20,8 @@ const Certificate = () => {
                         onClick={() => setSelectedImage(certificate.image)}
                     />
 
-                    {/* <div className='overlay-icon'> */}
-
-                    {/* <Link to={project.link} target="_blank" rel="noopener noreferrer" >
-                <i className="fa fa-eye fa-2x "></i>
-              </Link> */}
-
-                    {/* </div> */}
-
                     <h5 className='Certificate-name'>{certificate.name}</h5>
+                    <p className='Certificate-description'>{certificate.description}</p>
 
                     {selectedImage && (
                         <div className="modal-overlay" onClick={() => setSelectedImage(null)}>
