@@ -16,7 +16,7 @@
 
 @media (max-width: 576px) {
     .map-box iframe {
-        width: 410px;
+        width: 330px;
         height: 175px;
     }
 }
@@ -26,7 +26,7 @@
 
 @media (min-width: 577px) and (max-width: 768px) {
     .map-box iframe {
-        width: 600px;
+        width: 500px;
         height: 280px;
     }
 }
@@ -38,7 +38,7 @@
 /* Tablet & small laptop (769px–1200px) */
 @media (min-width: 769px) and (max-width: 1200px) {
     .map-box iframe {
-        width: 400px;
+        width: 450px;
         height: 200px;
     }
 }

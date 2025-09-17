@@ -10,7 +10,9 @@ const ProjectCard = () => {
 
                 <div key={index} className="project-card" >
 
-                    <img src={project.image} alt={project.name} className='project-image' />
+                    <Link to={project.link} target="_blank" rel="noopener noreferrer">
+                        <img src={project.image} alt={project.name} className='project-image' />
+                    </Link>
 
                     <div className='overlay-icon'>
 

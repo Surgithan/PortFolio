@@ -53,12 +53,12 @@
 
 .vertical-line {
     width: 2px;
-    height: 100px;   
+    height: 100px;
     background-color: #a39f9e;
     margin-left: 14px;
 }
 
-.vertical-line.short{
+.vertical-line.short {
     height: 70px;
     margin-top: -30px;
 }
@@ -92,3 +92,91 @@
     font-size: 15px;
     line-height: 1.5;
 }
+
+
+
+
+
+
+
+/* Mobile Phones Screen Width */
+
+@media (max-width: 576px) {
+
+    .vertical-line {
+        height: 200px;
+    }
+
+    .vertical-line.short {
+        height: 100px;
+    }
+
+    .vertical-line.long {
+        height: 200px;
+    }
+
+}
+
+
+
+/* Tablet Screen Width */
+
+@media (min-width:577px) and (max-width: 768px) {
+
+    .vertical-line {
+        height: 150px;
+    }
+
+    .vertical-line.short {
+        height: 100px;
+    }
+
+    .vertical-line.long {
+        height: 150px;
+    }
+
+}
+
+
+
+
+
+/* 💻 Small laptops (769px – 1200px) */
+@media (min-width: 769px) and (max-width: 1200px) {
+    .vertical-line {
+        height: 150px;
+    }
+
+    .vertical-line.short {
+        height: 100px;
+    }
+
+    .vertical-line.long {
+        height: 150px;
+    }
+}
+
+
+
+
+
+
+/* 🖥️ Large desktops (1201px and up) */
+
+
+/* @media (min-width: 1201px) {
+    .full-container {
+        flex-direction: row;
+        padding: 2.9%;
+        gap: 20px;
+    }
+
+    .detail-container {
+        width: 25%;
+        border-radius: 8%;
+    }
+
+    .content-container {
+        width: 75%;
+    }
+} */

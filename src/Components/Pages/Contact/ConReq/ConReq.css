@@ -5,7 +5,7 @@
     box-shadow: 0 0 10px rgb(27, 27, 27);
 }
 
-.contact-heading h2{
+.contact-heading h2 {
     margin-bottom: 20px;
     font-size: 30px;
     font-weight: 1000;
@@ -92,17 +92,35 @@
 /* Mobile Phones Screen Width */
 
 @media (max-width: 576px) {
-    .contact-input input {
-        width: 47.6%;
+
+    .contact-request {
+        padding: 5%;
     }
+
+    .contact-input input {
+        width: 100%;
+    }
+
+    .form-button {
+        padding: 5px 10px;
+        font-size: 10px;
+    }
+
 }
 
 
 /* Tablets Screen Width */
 
-@media (min-width: 577px) and (max-width: 768px){
+@media (min-width: 577px) and (max-width: 768px) {
     .contact-input input {
-        width: 48.3%;
+        width: 100%;
+    }
+    .contact-request {
+        padding: 5%;
+    }
+    .form-button {
+        padding: 10px 15px;
+        font-size: 12px;
     }
 }
 

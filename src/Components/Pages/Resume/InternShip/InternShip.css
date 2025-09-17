@@ -21,12 +21,12 @@
     margin-right: 10px;
 }
 
-.internship-title{
+.internship-title {
     color: #fff;
     margin: 0;
 }
 
-.internship-content{
+.internship-content {
     position: absolute;
     top: 0px;
     left: 40px;
@@ -37,13 +37,95 @@
     font-size: 18px;
 }
 
-.internship-desc{
+.internship-desc {
     margin-top: 5px;
     color: #bdbcb9;
     font-size: 15px;
     line-height: 1.5;
 }
-.vertical-line.medium{
+
+.vertical-line.medium {
     height: 75px;
     margin-bottom: 10px;
 }
+
+
+
+
+
+
+
+
+
+
+
+/* Mobile Phones Screen Width */
+
+@media (max-width: 576px) {
+
+    .internship-container {
+        margin-top: 150px;
+        margin-bottom: 150px;
+    }
+
+    .vertical-line.medium {
+        height: 140px;
+    }
+
+}
+
+
+
+/* Tablet Screen Width */
+
+@media (min-width:577px) and (max-width: 768px) {
+
+    .internship-container {
+        margin-top: 150px;
+        margin-bottom: 150px;
+    }
+
+    .vertical-line.medium {
+        height: 140px;
+    }
+
+}
+
+
+
+
+
+/* 💻 Small laptops (769px – 1200px) */
+@media (min-width: 769px) and (max-width: 1200px) {
+    .internship-container {
+        margin-top: 130px;
+        margin-bottom: 120px;
+    }
+
+    .vertical-line{
+        height: 140px;
+    }
+
+    .vertical-line.medium {
+        height: 100px;
+    }
+}
+
+
+
+
+
+
+/* 🖥️ Large desktops (1201px and up) */
+
+
+/* @media (min-width: 1201px) {
+    .internship-container {
+        margin-top: 150px;
+        margin-bottom: 150px;
+    }
+
+    .vertical-line.medium {
+        height: 140px;
+    }
+} */

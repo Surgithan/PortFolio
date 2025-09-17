@@ -5,7 +5,7 @@ import SocialIcons from '../SocialIcons/SocialIcons';
 const AboutBox = () => {
     return (
         <>
-        <div id="about-info">
+        <div className="about-info">
 
             <div className="icon-content">
 

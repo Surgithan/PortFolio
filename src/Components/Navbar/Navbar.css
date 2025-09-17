@@ -226,10 +226,10 @@
 }
 
 /* 🖥️ Large Desktop screens (1201px and above) */
-/* @media (min-width: 1201px) {
+@media (min-width: 1201px) {
     .navbar-content-box {
-        width: 55%;
-        padding: 2%;
+        width: 65%;
+        padding: 3%;
     }
 
     .nav-header {
@@ -239,4 +239,4 @@
     .nav-header li a {
         font-size: 22px;
     }
-} */
+}

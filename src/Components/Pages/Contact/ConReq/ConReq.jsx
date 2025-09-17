@@ -19,7 +19,7 @@ const ConReq = () => {
             </div>
 
             <div class="form-btn-box">
-                <button class="form-button" type="submit" onclick="sendMessage()">
+                <button class="form-button" type="submit">
                     <i class="fa-solid fa-paper-plane"></i>&nbsp;&nbsp;
                     <span>Send Message</span>
                 </button>

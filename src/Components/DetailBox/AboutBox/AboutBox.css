@@ -1,4 +1,4 @@
-#about-info {
+.about-info {
     width: 100%;
     color: #fff;
     padding: 8% 2%;
@@ -42,7 +42,7 @@
     font-size: 15px;
 }
 
-.social-icons{
+.social-icons {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -55,9 +55,8 @@
 
 /* 💻 Small laptops (769px – 1200px) */
 @media (min-width: 769px) and (max-width: 1200px) {
-    #about-info {
-        padding: 6% 4%;
-        text-align: center;
+    .about-info {
+        text-align: left;
         margin-bottom: 29px;
     }
 

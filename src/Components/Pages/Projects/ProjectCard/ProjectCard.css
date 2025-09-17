@@ -78,7 +78,21 @@
     .projects-grid {
         grid-template-columns: repeat(1, 1fr);
     }
+    .overlay-icon a {
+        display: none;
+    }
+
+    .project-card:hover .overlay-icon {
+        opacity: 0;
+    }
+
+    .overlay-icon:hover {
+        display: none;
+    }
 }
+
+
+
 
 
 /* Tablets Screen Width */
@@ -87,6 +101,18 @@
     .projects-grid {
         grid-template-columns: repeat(2, 1fr);
     }
+    .overlay-icon a {
+        display: none;
+    }
+
+    .project-card:hover .overlay-icon {
+        opacity: 0;
+    }
+
+    .overlay-icon:hover {
+        display: none;
+    }
+
 }
 
 
@@ -101,6 +127,8 @@
         grid-template-columns: repeat(2, 1fr);
     }
 }
+
+
 
 /* Large desktop (1201px and above) */
 /* @media (min-width: 1201px) {

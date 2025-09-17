@@ -35,6 +35,8 @@ const ContainerBox = () => {
                         <Route path="/achievement" element={<Achieves />} />
                         <Route path="/contact" element={<Contacts />} />
 
+                        <Route path="*" element={<Navigate to="/about" replace />} />
+
                     </Routes>
                 </div>
             </div>
