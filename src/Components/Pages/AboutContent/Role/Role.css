@@ -1,0 +1,47 @@
+.container-box {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.box {
+    background: #001;
+    border-radius: 12px;
+    padding: 20px;
+    display: flex;
+    gap: 15px;
+    align-items: flex-start;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.box:hover {
+    transform: scale(1.05);
+}
+
+.box i {
+    font-size: 30px;
+    color: #ffe81c;
+    margin-top: 5px;
+}
+
+.box h5 {
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 6px;
+}
+
+.box p {
+    margin-left: 14px;
+}
+
+/* Tablet Screen Width */
+
+@media (min-width:577px) and (max-width: 768px) {
+
+    .container-box {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}

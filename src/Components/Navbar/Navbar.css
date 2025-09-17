@@ -1,0 +1,242 @@
+.navbar-content-box {
+    width: 58%;
+    background-color: #4a4a4a;
+    border: 1px solid #fff;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2.5%;
+    border-top-right-radius: 17px;
+    border-bottom-left-radius: 15%;
+    border-bottom-right-radius: 15%;
+    margin-left: auto;
+    position: relative;
+}
+
+.hamburger {
+    display: none;
+}
+
+.hamburger-lines {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.hamburger-lines span {
+    display: block;
+    width: 30px;
+    height: 4px;
+    border-radius: 5px;
+    background-color: #ffe81c;
+}
+
+.nav-header {
+    display: flex;
+    justify-content: center;
+    gap: 23px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-header li a {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 1000;
+    color: #bdbcb9;
+    text-shadow: 1px 1px 2px #fce458;
+    letter-spacing: 1px;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+    padding-bottom: 5px;
+}
+
+.nav-link.active {
+    color: yellow;
+}
+
+.nav-link:hover {
+    color: #ffa;
+}
+
+
+
+
+
+/* Mobile Phones Screen Width */
+
+
+@media (max-width: 576px) {
+
+    .navbar-content-box {
+        width: 100%;
+        background-color: transparent;
+        border: none;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 10px;
+        position: relative;
+    }
+
+    .hamburger {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 5px;
+        cursor: pointer;
+        border-radius: 10px;
+        position: absolute;
+        top: 22px;
+        right: 2.8%;
+    }
+
+    .hamburger img {
+        width: 50px;
+        height: auto;
+    }
+
+    .nav-header {
+        display: none;
+        flex-direction: column;
+        background-color: #4a4a4a;
+        padding: 30px;
+        border-radius: 10px;
+        position: absolute;
+        top: 55px;
+        right: 14px;
+        min-width: 60px;
+        z-index: 1000;
+    }
+
+    .hamburger:hover+.nav-header,
+    .nav-header:hover {
+        display: flex;
+    }
+
+    .nav-header.show {
+        display: flex;
+    }
+}
+
+
+
+
+
+
+
+
+
+/* Tablets Screen Width */
+
+@media (min-width: 577px) and (max-width: 768px) {
+    .navbar-content-box {
+        width: 100%;
+        background-color: transparent;
+        border: none;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 10px;
+        position: relative;
+    }
+
+    .hamburger {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 5px;
+        cursor: pointer;
+        border-radius: 10px;
+        position: absolute;
+        top: 22px;
+        right: 2.8%;
+    }
+
+    .hamburger-lines {
+        margin-top: 5%;
+        width: 40px;
+    }
+
+    .hamburger-lines span {
+        width: 37px;
+        height: 4px;
+    }
+
+    .hamburger img {
+        width: 50px;
+        height: auto;
+    }
+
+    .nav-header {
+        display: none;
+        flex-direction: column;
+        background-color: #4a4a4a;
+        padding: 30px;
+        border-radius: 10px;
+        position: absolute;
+        top: 55px;
+        right: 14px;
+        min-width: 60px;
+        z-index: 1000;
+    }
+
+    .hamburger:hover+.nav-header,
+    .nav-header:hover {
+        display: flex;
+    }
+
+    .nav-header.show {
+        display: flex;
+    }
+}
+
+
+
+
+
+
+
+
+
+/* 💻 Tablet & Small Laptop screens (769px – 1200px) */
+@media (min-width: 769px) and (max-width: 1200px) {
+    .navbar-content-box {
+        width: 100%;
+        padding: 3%;
+        border-top-left-radius: 15px;
+    }
+
+    .nav-header {
+        gap: 18px;
+    }
+
+    .nav-header li a {
+        font-size: 18px;
+    }
+}
+
+/* 🖥️ Large Desktop screens (1201px and above) */
+/* @media (min-width: 1201px) {
+    .navbar-content-box {
+        width: 55%;
+        padding: 2%;
+    }
+
+    .nav-header {
+        gap: 25px;
+    }
+
+    .nav-header li a {
+        font-size: 22px;
+    }
+} */

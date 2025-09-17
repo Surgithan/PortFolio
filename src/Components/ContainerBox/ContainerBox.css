@@ -1,0 +1,141 @@
+.full-container {
+    padding: 2.9%;
+    /* add this for a old portfolio same padding 5.5% */
+    display: flex;
+    gap: 20px;
+}
+
+.mobile-view {
+    display: none;
+}
+
+.detail-container {
+    width: 25%;
+    height: fit-content;
+    background-color: #292927;
+    display: flex;
+    justify-content: center;
+    padding: 2.3% 2%;
+    border: 1px solid #fff;
+    border-radius: 8%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: sticky;
+    top: 10px;
+}
+
+.content-container {
+    width: 75%;
+    height: 100%;
+    border-radius: 17px;
+    background-color: #292927;
+    border: 1px solid #fff;
+}
+
+
+/* Mobile Phones Screen Width */
+
+@media (max-width: 576px) {
+
+    .full-container {
+        flex-direction: column;
+        padding: 0;
+        display: flex;
+        gap: 0;
+        margin: 0;
+    }
+
+    .mobile-view {
+        display: block;
+    }
+
+    .detail-container {
+        display: none;
+    }
+
+    .content-container {
+        width: 100%;
+        border-radius: 0;
+        background-color: #292927;
+        border: none;
+    }
+}
+
+
+
+/* Tablet Screen Width */
+
+@media (min-width:577px) and (max-width: 768px) {
+
+    .full-container {
+        flex-direction: column;
+        padding: 0;
+        display: flex;
+        gap: 0;
+        margin: 0;
+    }
+
+    .mobile-view {
+        display: block;
+    }
+
+    .detail-container {
+        display: none;
+    }
+
+    .content-container {
+        width: 100%;
+        border-radius: 0;
+        background-color: #292927;
+        border: none;
+    }
+
+}
+
+
+
+
+
+/* 💻 Small laptops (769px – 1200px) */
+@media (min-width: 769px) and (max-width: 1200px) {
+    .full-container {
+        flex-direction: row;   /* side by side */
+        padding: 2%;
+        gap: 15px;
+    }
+
+    .detail-container {
+        width: 30%;            /* slightly larger */
+        border-radius: 6%;
+    }
+
+    .content-container {
+        width: 70%;
+    }
+}
+
+
+
+
+
+
+/* 🖥️ Large desktops (1201px and up) */
+
+
+/* @media (min-width: 1201px) {
+    .full-container {
+        flex-direction: row;
+        padding: 2.9%;
+        gap: 20px;
+    }
+
+    .detail-container {
+        width: 25%;
+        border-radius: 8%;
+    }
+
+    .content-container {
+        width: 75%;
+    }
+} */

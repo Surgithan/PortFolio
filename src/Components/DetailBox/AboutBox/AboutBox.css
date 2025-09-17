@@ -1,0 +1,105 @@
+#about-info {
+    width: 100%;
+    color: #fff;
+    padding: 8% 2%;
+    text-align: left;
+}
+
+.icon-content {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 14%;
+}
+
+.icon-content2 {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 7%;
+}
+
+.icon i {
+    font-size: 24px;
+    color: #ffe81c;
+}
+
+.about-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-details .label {
+    margin: 0;
+    font-weight: bold;
+    font-size: 10px;
+    color: #bfbfbd;
+}
+
+.about-details .address {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+}
+
+.social-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+
+
+
+
+/* 💻 Small laptops (769px – 1200px) */
+@media (min-width: 769px) and (max-width: 1200px) {
+    #about-info {
+        padding: 6% 4%;
+        text-align: center;
+        margin-bottom: 29px;
+    }
+
+    .icon-content,
+    .icon-content2 {
+        justify-content: flex-start;
+        margin-top: 10%;
+    }
+
+    .about-details .label {
+        font-size: 12px;
+    }
+
+    .about-details .address {
+        font-size: 14px;
+    }
+}
+
+
+
+
+
+/* 🖥️ Large desktops (1201px and up) */
+
+
+/* @media (min-width: 1201px) {
+    #about-info {
+        padding: 8% 2%;
+        text-align: left;
+    }
+
+    .icon-content,
+    .icon-content2 {
+        justify-content: flex-start;
+        margin-top: 7%;
+    }
+
+    .about-details .label {
+        font-size: 14px;
+    }
+
+    .about-details .address {
+        font-size: 16px;
+    }
+} */

@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Libertinus+Sans:ital,wght@0,400;0,700;1,400&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  background: black;
+  color: #fff;
+  overflow: scroll;
+  scrollbar-width: none; /* Hides scrollbar in Firefox */
+  font-family: "Libertinus Sans", sans-serif;
+}
+
+/* Hide scrollbar in Chrome, Edge, Safari */
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* Font Classes */
+.libertinus-sans-regular {
+  font-family: "Libertinus Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.libertinus-sans-bold {
+  font-family: "Libertinus Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.libertinus-sans-regular-italic {
+  font-family: "Libertinus Sans", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}

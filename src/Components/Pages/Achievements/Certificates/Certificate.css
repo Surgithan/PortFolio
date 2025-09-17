@@ -1,0 +1,103 @@
+.Certificate-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    padding: 12px;
+}
+
+.Certificate-card {
+    background: #2c2c2c;
+    border: 1px solid #444;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.Certificate-name {
+    margin-top: 10px;
+    color: #f7db3b;
+    font-size: 18px;
+    text-align: center;
+}
+
+.Certificate-image {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.Certificate-card:hover {
+    transform: scale(1.09);
+    color: #f5e690;
+    box-shadow: 0px 8px 18px rgba(0, 0, 0, 0.2);
+    opacity: 0.6;
+}
+
+.Certificate-name:hover {
+    color: #f5e690;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-content img {
+    max-width: 50%;
+    max-height: 50%;
+    border-radius: 8px;
+}
+
+
+/* Mobile Phones Screen Width */
+
+@media (max-width: 576px) {
+    .Certificate-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+/* Tablets Screen Width */
+
+@media (min-width: 577px) and (max-width: 768px) {
+    .Certificate-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+
+
+
+/* Tablet & small laptop (769px–1200px) */
+@media (min-width: 769px) and (max-width: 1200px) {
+    .Certificate-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Large desktop (1201px and above) */
+/* @media (min-width: 1201px) {
+    .about-section h2 {
+        font-size: 40px; 
+    }
+        .seperate-two-box {
+    display: flex;
+    justify-content: space-between;
+  }
+} */

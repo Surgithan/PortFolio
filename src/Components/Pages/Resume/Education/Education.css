@@ -1,0 +1,94 @@
+.education-container {
+    padding-left: 30px;
+    padding-top: 60px;
+    color: #f7db3b;
+    position: relative;
+}
+
+
+.education-heading {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.education-icon {
+    background-color: #292927;
+    padding: 6px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 1px 1px #8a8584;
+    margin-right: 10px;
+}
+
+.education-title {
+    color: #fff;
+    margin: 0;
+}
+
+
+.vertical {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.white-outline-dot {
+    width: 20px;
+    height: 20px;
+    background-color: #292927;
+    border-radius: 50%;
+    margin-left: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 1px 1px #8a8584;
+    margin-top: -20px;
+}
+
+.yellow-inner-dot {
+    width: 10px;
+    height: 10px;
+    background-color: #fce458;
+    border-radius: 50%;
+}
+
+.vertical-line {
+    width: 2px;
+    height: 100px;   
+    background-color: #a39f9e;
+    margin-left: 14px;
+}
+
+.vertical-line.short{
+    height: 70px;
+    margin-top: -30px;
+}
+
+.vertical-line.long {
+    height: 90px;
+    margin-bottom: 10px;
+}
+
+.education-content {
+    position: absolute;
+    top: 0px;
+    left: 40px;
+}
+
+
+.education-content h5 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.education-year {
+    font-size: 15px;
+    margin-top: 5px;
+    color: #ddd;
+}
+
+.education-desc {
+    margin-top: 5px;
+    color: #bdbcb9;
+    font-size: 15px;
+    line-height: 1.5;
+}

@@ -1,0 +1,55 @@
+.map-box {
+    display: flex;
+    justify-content: center;
+    margin: 8% 0;
+}
+
+.map-box iframe {
+    width: 730px;
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px white;
+}
+
+
+/* Mobile Phones Screen Width */
+
+@media (max-width: 576px) {
+    .map-box iframe {
+        width: 410px;
+        height: 175px;
+    }
+}
+
+
+/* Tablets Screen Width */
+
+@media (min-width: 577px) and (max-width: 768px) {
+    .map-box iframe {
+        width: 600px;
+        height: 280px;
+    }
+}
+
+
+
+
+
+/* Tablet & small laptop (769px–1200px) */
+@media (min-width: 769px) and (max-width: 1200px) {
+    .map-box iframe {
+        width: 400px;
+        height: 200px;
+    }
+}
+
+/* Large desktop (1201px and above) */
+/* @media (min-width: 1201px) {
+    .about-section h2 {
+        font-size: 40px; 
+    }
+        .seperate-two-box {
+    display: flex;
+    justify-content: space-between;
+  }
+} */
