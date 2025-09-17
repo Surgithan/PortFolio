@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/PortFolio/static/css/main.0312ed9e.css",
-    "main.js": "/PortFolio/static/js/main.00b8bdf7.js",
+    "main.js": "/PortFolio/static/js/main.2e710b3a.js",
     "static/media/vegetableshop.png": "/PortFolio/static/media/vegetableshop.6358b0755cbb3a0a6af2.png",
     "static/media/website.png": "/PortFolio/static/media/website.dcdb970851996b2b6084.png",
     "static/media/Art studio.png": "/PortFolio/static/media/Art studio.8e0db94f269ee9f99688.png",
@@ -23,10 +23,10 @@
     "static/media/Theme change.png": "/PortFolio/static/media/Theme change.483eab7c2c55cbf3953b.png",
     "index.html": "/PortFolio/index.html",
     "main.0312ed9e.css.map": "/PortFolio/static/css/main.0312ed9e.css.map",
-    "main.00b8bdf7.js.map": "/PortFolio/static/js/main.00b8bdf7.js.map"
+    "main.2e710b3a.js.map": "/PortFolio/static/js/main.2e710b3a.js.map"
   },
   "entrypoints": [
     "static/css/main.0312ed9e.css",
-    "static/js/main.00b8bdf7.js"
+    "static/js/main.2e710b3a.js"
   ]
 }
